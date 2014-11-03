@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0D178E21A084399009C25D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D178E11A084399009C25D2 /* AppDelegate.swift */; };
+		F0D178E41A084399009C25D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D178E31A084399009C25D2 /* ViewController.swift */; };
+		F0D178E71A084399009C25D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0D178E51A084399009C25D2 /* Main.storyboard */; };
+		F0D178E91A08439A009C25D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0D178E81A08439A009C25D2 /* Images.xcassets */; };
+		F0D178EC1A08439A009C25D2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0D178EA1A08439A009C25D2 /* LaunchScreen.xib */; };
+		F0D178F81A08439A009C25D2 /* dojo_blurTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D178F71A08439A009C25D2 /* dojo_blurTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0D178F21A08439A009C25D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0D178D41A084399009C25D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0D178DB1A084399009C25D2;
+			remoteInfo = "dojo-blur";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0D178DC1A084399009C25D2 /* dojo-blur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dojo-blur.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0D178E01A084399009C25D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0D178E11A084399009C25D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F0D178E31A084399009C25D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F0D178E61A084399009C25D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0D178E81A08439A009C25D2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F0D178EB1A08439A009C25D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F0D178F11A08439A009C25D2 /* dojo-blurTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dojo-blurTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0D178F61A08439A009C25D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0D178F71A08439A009C25D2 /* dojo_blurTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dojo_blurTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0D178D91A084399009C25D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D178EE1A08439A009C25D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0D178D31A084399009C25D2 = {
+			isa = PBXGroup;
+			children = (
+				F0D178DE1A084399009C25D2 /* dojo-blur */,
+				F0D178F41A08439A009C25D2 /* dojo-blurTests */,
+				F0D178DD1A084399009C25D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0D178DD1A084399009C25D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0D178DC1A084399009C25D2 /* dojo-blur.app */,
+				F0D178F11A08439A009C25D2 /* dojo-blurTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0D178DE1A084399009C25D2 /* dojo-blur */ = {
+			isa = PBXGroup;
+			children = (
+				F0D178E11A084399009C25D2 /* AppDelegate.swift */,
+				F0D178E31A084399009C25D2 /* ViewController.swift */,
+				F0D178E51A084399009C25D2 /* Main.storyboard */,
+				F0D178E81A08439A009C25D2 /* Images.xcassets */,
+				F0D178EA1A08439A009C25D2 /* LaunchScreen.xib */,
+				F0D178DF1A084399009C25D2 /* Supporting Files */,
+			);
+			path = "dojo-blur";
+			sourceTree = "<group>";
+		};
+		F0D178DF1A084399009C25D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0D178E01A084399009C25D2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0D178F41A08439A009C25D2 /* dojo-blurTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0D178F71A08439A009C25D2 /* dojo_blurTests.swift */,
+				F0D178F51A08439A009C25D2 /* Supporting Files */,
+			);
+			path = "dojo-blurTests";
+			sourceTree = "<group>";
+		};
+		F0D178F51A08439A009C25D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0D178F61A08439A009C25D2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0D178DB1A084399009C25D2 /* dojo-blur */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0D178FB1A08439A009C25D2 /* Build configuration list for PBXNativeTarget "dojo-blur" */;
+			buildPhases = (
+				F0D178D81A084399009C25D2 /* Sources */,
+				F0D178D91A084399009C25D2 /* Frameworks */,
+				F0D178DA1A084399009C25D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dojo-blur";
+			productName = "dojo-blur";
+			productReference = F0D178DC1A084399009C25D2 /* dojo-blur.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0D178F01A08439A009C25D2 /* dojo-blurTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0D178FE1A08439A009C25D2 /* Build configuration list for PBXNativeTarget "dojo-blurTests" */;
+			buildPhases = (
+				F0D178ED1A08439A009C25D2 /* Sources */,
+				F0D178EE1A08439A009C25D2 /* Frameworks */,
+				F0D178EF1A08439A009C25D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0D178F31A08439A009C25D2 /* PBXTargetDependency */,
+			);
+			name = "dojo-blurTests";
+			productName = "dojo-blurTests";
+			productReference = F0D178F11A08439A009C25D2 /* dojo-blurTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0D178D41A084399009C25D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = xmcdojo;
+				TargetAttributes = {
+					F0D178DB1A084399009C25D2 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					F0D178F01A08439A009C25D2 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = F0D178DB1A084399009C25D2;
+					};
+				};
+			};
+			buildConfigurationList = F0D178D71A084399009C25D2 /* Build configuration list for PBXProject "dojo-blur" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0D178D31A084399009C25D2;
+			productRefGroup = F0D178DD1A084399009C25D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0D178DB1A084399009C25D2 /* dojo-blur */,
+				F0D178F01A08439A009C25D2 /* dojo-blurTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0D178DA1A084399009C25D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D178E71A084399009C25D2 /* Main.storyboard in Resources */,
+				F0D178EC1A08439A009C25D2 /* LaunchScreen.xib in Resources */,
+				F0D178E91A08439A009C25D2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D178EF1A08439A009C25D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0D178D81A084399009C25D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D178E41A084399009C25D2 /* ViewController.swift in Sources */,
+				F0D178E21A084399009C25D2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D178ED1A08439A009C25D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D178F81A08439A009C25D2 /* dojo_blurTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0D178F31A08439A009C25D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0D178DB1A084399009C25D2 /* dojo-blur */;
+			targetProxy = F0D178F21A08439A009C25D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0D178E51A084399009C25D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0D178E61A084399009C25D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0D178EA1A08439A009C25D2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0D178EB1A08439A009C25D2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0D178F91A08439A009C25D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0D178FA1A08439A009C25D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0D178FC1A08439A009C25D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "dojo-blur/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F0D178FD1A08439A009C25D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "dojo-blur/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F0D178FF1A08439A009C25D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "dojo-blurTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dojo-blur.app/dojo-blur";
+			};
+			name = Debug;
+		};
+		F0D179001A08439A009C25D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "dojo-blurTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dojo-blur.app/dojo-blur";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0D178D71A084399009C25D2 /* Build configuration list for PBXProject "dojo-blur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0D178F91A08439A009C25D2 /* Debug */,
+				F0D178FA1A08439A009C25D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0D178FB1A08439A009C25D2 /* Build configuration list for PBXNativeTarget "dojo-blur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0D178FC1A08439A009C25D2 /* Debug */,
+				F0D178FD1A08439A009C25D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0D178FE1A08439A009C25D2 /* Build configuration list for PBXNativeTarget "dojo-blurTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0D178FF1A08439A009C25D2 /* Debug */,
+				F0D179001A08439A009C25D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0D178D41A084399009C25D2 /* Project object */;
+}
