@@ -60,7 +60,7 @@
         <!--Modal View Controller-->
         <scene sceneID="L6p-Vb-GYI">
             <objects>
-                <viewController modalPresentationStyle="overCurrentContext" id="alX-oY-RKW" customClass="XMCModalViewController" customModule="dojo_blur" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="overCurrentContext" id="alX-oY-RKW" customClass="XMCModalViewController" customModule="dojo_blur" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="XJt-h4-8jT"/>
                         <viewControllerLayoutGuide type="bottom" id="2rk-WP-1jX"/>
@@ -128,7 +128,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J1A-pH-Dfg" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="hrw-dz-ISB" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="479" y="589"/>
+            <point key="canvasLocation" x="538" y="589"/>
         </scene>
     </scenes>
     <resources>
